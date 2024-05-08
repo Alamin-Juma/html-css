@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAT APP</title>
+    <!-- this is where you link the css and script -->
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- this is where you perform SEO -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>This is our pet site</h1>
+      <p>
+        We have a <strong>handsome</strong> cat named
+        <span style="color: red">Tom</span>
+      </p>
+      <p>we <em>really</em> <i>really</i> love it</p>
+      <blockquote>
+        "Give me six hours to chop down a tree and I will spend the first four
+        sharpening the axe.” - Abraham Lincoln:"
+      </blockquote>
+      <img src="./assets/cat.jpeg" alt="" />
+      <button onclick="changeBG_Color()">change my color</button>
+
+      <!-- list of foods ourt cat eats -->
+      <!-- unordered -->
+      <ul>
+        <li>berry biscuits</li>
+        <li>milk</li>
+        <li>fried eggs</li>
+      </ul>
+
+      <!-- ordered -->
+      <ol>
+        <li>berry biscuits</li>
+        <li>milk</li>
+        <li>fried eggs</li>
+      </ol>
+
+      <!-- this is a link -->
+      <a href="https://github.com/Alamin-Juma" target="_blank"
+        >visit my github</a
+      >
+
+      <!-- this is some code -->
+      <pre>
+        <code>
+            import React from 'react'
+
+            import {cat,cat2,cat3,cat4} from '../../assets'
+            const CardsComponent = () => {
+                const name = {
+                    first: 'John',
+                    last: 'Doe'
+                }
+            }
+
+
+
+        </code>
+    </pre>
+
+
+    <!-- forms -->
+    <!-- purchase a cat -->
+    <form action="http://localhost:3000/" method="POST">
+      <div>
+        <label id="" for="">User Name</label>
+        <input type="text" name="username" id="" placeholder="Your username" value="200" disabled>
+      </div>
+      <div>
+        <label for="">email</label>
+        <input type="email" name="email" placeholder="Your email">
+      </div>
+    </form>
+
+    <?php
+$name = $_POST['username'];
+//now $name is set to "isaac"
+var_dump($name); //would return Kevin to the screen
+
+    <!-- video -->
+    <iframe width="560" height="315" src="https://youtu.be/s8BQ5Suab6Y" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <!-- container tags  -->
+    <div class="footer">
+      <div class="company">
+        <h2>Company</h2>
+        <h3>Pet Hospital</h3>
+        <p>This is our pet hospital</p>
+      </div>
+      <div class="contacts">
+        <!-- email link  -->
+        <h2>Contacts</h2>
+        <p><a href="mailto:info@example.com">Send us an email</a></p>
+        <p><a href="tel:+123456789">Call us at +1 (234) 567-89</a></p>
+      </div>
+      <div class="careers">
+        <h2>Careers</h2>
+        <p>Apply to our open positions</p>
+        <p>junior frontend dev</p>
+        <p>senior QA/QE</p>
+      </div>
+    </div>
+    <hr>
+
+
+    <!-- rebuild the footer using container names   -->
+    <footer>
+      <section>
+        <h2>Company</h2>
+        <h3>Pet Hospital</h3>
+        <p>This is our pet hospital</p>
+      </div>
+      </section>
+      <section>
+        <h2>Contacts</h2>
+        <p><a href="mailto:info@example.com">Send us an email</a></p>
+        <p><a href="tel:+123456789">Call us at +1 (234) 567-89</a></p>
+      </section>
+      <section>
+        <h2>Careers</h2>
+        <p>Apply to our open positions</p>
+        <p>junior frontend dev</p>
+        <p>senior QA/QE</p>
+      </section>
+
+    </footer>
+  </body>
+</html>
